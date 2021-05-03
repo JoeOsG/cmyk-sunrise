@@ -37,6 +37,7 @@
     @media (min-width: $tablet-width) {
       line-height: 3px;
     }
+<<<<<<< HEAD
   }
 
   &__no-sales {
@@ -45,6 +46,16 @@
     font-size: 2.4rem;
   }
 
+=======
+  }
+
+  &__no-sales {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+
+>>>>>>> dev
   &__count {
     width: 25%;
     text-align: left;
@@ -52,7 +63,21 @@
 
   &__quantity {
     width: 100%;
+<<<<<<< HEAD
+=======
     text-align: center;
+  }
+
+  &__quantity-item {
+    // display: flex;
+    // justify-content: center;
+    width: 100%;
+>>>>>>> dev
+    text-align: center;
+
+    @media (min-width: $tablet-width) {
+      text-align: center;
+    }
   }
 
   &__quantity-item {
